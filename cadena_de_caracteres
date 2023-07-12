@@ -1,0 +1,21 @@
+#FeLipE rOjAs
+
+nombre="FeLipE rOjAs"
+
+nombre= nombre.upper()
+print(nombre)
+
+nombre= nombre.lower()
+print(nombre)
+
+nombre= nombre.capitalize()
+print(nombre)
+
+#quita los espacios en blanco inecesarios
+nombre= nombre.strip() 
+print(nombre)
+
+#nombre=nombre.replace("busca","remplaza")
+nombre= nombre.replace("r","a")
+print(nombre)
+

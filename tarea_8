@@ -1,0 +1,26 @@
+def convertidor_pesos(valor_dolar):
+    pesos=int(input("ingrese cantidad de pesos a convertir: "))
+    dolares=pesos/valor_dolar
+    dolares=round(dolares,2)
+    
+    print("Usted tiene $"+ str(dolares) +" dolares")
+
+print("""convertidor de pesos a dolares
+      1-pesos chilenos a dolares
+      2-pesos mexicanos adolares
+      3-pesos argentinos a dolares
+      """)
+
+opcion=int(input("ingrese una opcion: "))
+    
+if opcion == 1:
+    convertidor_pesos(798)
+        
+elif opcion == 2:
+    convertidor_pesos(17)
+        
+elif opcion == 3:
+    convertidor_pesos(263)
+        
+else:
+    print("opcion ingresada incorrecta")
